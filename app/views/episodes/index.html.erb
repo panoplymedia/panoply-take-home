@@ -1,0 +1,5 @@
+<h1>Episodes</h1>
+<% @episodes.each do |episode| %>
+  <h3><%= episode.title %></h3>
+  <p>Publish Time: <%= episode.release_time %></p>
+<% end %>
